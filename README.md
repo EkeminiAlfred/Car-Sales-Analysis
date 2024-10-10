@@ -53,7 +53,36 @@ The dataset has 156 car models, giving an insight that the sales personnel know 
 
 #### Data Preprocessing: 
 
-•	Using python programming language for analysis, the first step is to import various python libraries to be used for the analysis and then, import the dataset to be analyzed.
-•	For the integrity of the analysis, the data types were checked and changed where applicable using (.info ()) as the command.
-•	To avoid error in analysis, duplicates were checked using (. duplicated (). Sum ()).
-•	Missing values were replaced using the average value of the columns involved.
+- Using python programming language for analysis, the first step is to import various python libraries to be used for the analysis and then, import the dataset to be analyzed.
+- For the integrity of the analysis, the data types were checked and changed where applicable using (.info ()) as the command.
+- To avoid error in analysis, duplicates were checked using (. duplicated (). Sum ()).
+- Missing values were replaced using the average value of the columns involved.
+
+ ![image](https://github.com/user-attachments/assets/c48e1099-28ba-4cfe-a92b-79a00ee2dbcd)
+
+## Exploratory Data Analysis
+1.	 In terms of average sales volume, which manufacturer has the highest and lowest? 
+By combining the Manufacturers according to their mean Sales in thousands and then arranging them in either ascending or descending order, we may determine which is highest and lowest. idmax() and idxmin() can also be used in place of sorting to determine the highest and lowest average sales volume, respectively. 
+2.	Distribution of car prices in the dataset
+
+ ![image](https://github.com/user-attachments/assets/9bf78df2-bdc8-40d9-8b48-36fedd840001)
+
+Here, we group and plot the Manufacturer with the sum of the Price in thousand.
+3.	Correlation matrix of numerical variables in the dataset
+ 
+ ![image](https://github.com/user-attachments/assets/6945e941-9d10-4c04-9d38-f359c17256cf)
+
+4.	Which is the most popular car brands?
+
+ ![image](https://github.com/user-attachments/assets/3a54b2d4-7209-4430-a2d2-d16d7b262846)
+
+By grouping the Manufacturer together with the maximum sales in thousand, we can see that Ford, particularly the F-Series model is the most popular car.
+5.	What is the top 3 fuel-efficient cars with an engine size above 2.5 litre
+
+ ![image](https://github.com/user-attachments/assets/bd982f5d-b917-4011-899d-4ff1e90a26f3)
+
+From the image above, the Chevrolet Impala, Chevrolet Monte Carlo and Mercedes CLK Coupe model are the 3 top fuel efficiency cars with an engine size above 2.5 litres.
+
+## CONCLUSION/RECOMMENDATION
+Based on our analysis, we’ve been able to provide valuable and data driven answers to our business questions. Recommendation is that a perfect analysis can be done on a wide/large dataset. Visualizations can then be done on PowerBI and other advanced analytics tools.
+
